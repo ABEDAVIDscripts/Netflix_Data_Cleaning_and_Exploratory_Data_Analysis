@@ -333,7 +333,7 @@ WHERE row_numb = 1;
 SELECT show_id, type, title, release_year
 FROM netflix_exp
 	WHERE release_year = 2020
-    AND type = 'movie';
+	AND type = 'movie';
 ```
 
 #### Q5. Find the top 5 countries with the most content on Netlix
@@ -341,7 +341,7 @@ FROM netflix_exp
 ```SQL
 SELECT 
 	SUBSTRING_INDEX(Country, ',', 1) AS New_Country, 
-    COUNT(*) AS Count
+	COUNT(*) AS Count
 FROM netflix_exp
 WHERE country != ''
 GROUP BY 1
@@ -358,21 +358,23 @@ ALTER TABLE netflix_exp
 ADD COLUMN
 	duration_minute INT,
 ADD COLUMN
-    duration_season INT;
+	duration_season INT;
 ```
 
 *update the new columns*
 
 ```SQL
 UPDATE netflix_exp
-SET duration_minute = CAST(SUBSTRING_INDEX(duration, ' ', 1) AS UNSIGNED)
-WHERE duration LIKE '%min%';
+SET
+	duration_minute = CAST(SUBSTRING_INDEX(duration, ' ', 1) AS UNSIGNED)
+	WHERE duration LIKE '%min%';
 ```
 
 ```SQL
 UPDATE netflix_exp
-SET duration_season = CAST(SUBSTRING_INDEX(duration, ' ', 1) AS UNSIGNED)
-WHERE duration LIKE '%season%'; 
+SET
+	duration_season = CAST(SUBSTRING_INDEX(duration, ' ', 1) AS UNSIGNED)
+	WHERE duration LIKE '%season%'; 
 ```
 
 *Identify the longest movie*
@@ -409,7 +411,7 @@ SELECT
 	type, title, duration_season
 FROM netflix_exp
 	WHERE duration_season > 5
-    AND type = 'TV show';
+	AND type = 'TV show';
 ```    
 
 #### Q10. Count the number of content items in each genre
@@ -417,7 +419,7 @@ FROM netflix_exp
 ```SQL
 SELECT
 	SUBSTRING_INDEX(listed_in, ',', 1) AS Genre,
-    COUNT(*)
+	COUNT(*)
 FROM netflix_exp
 GROUP BY 1
 ORDER BY 1;
@@ -448,7 +450,7 @@ SELECT
 	show_id, type, title
 FROM netflix_exp
 	WHERE type = 'movie'
-    AND listed_in LIKE '%Document%';
+	AND listed_in LIKE '%Document%';
 ```
 
 #### Q13. Find all content without director
@@ -457,7 +459,7 @@ FROM netflix_exp
 SELECT *
 FROM netflix_exp
 	WHERE director = ''
-    OR director IS NULL;
+	OR director IS NULL;
 ```
 
 #### Q14. Find how many movies actor 'Salman Khan' appeared in the last 10 years!
@@ -467,8 +469,8 @@ SELECT
 	count(*) AS TOTAL_MOVIES
 FROM netflix_exp
 	WHERE casts LIKE '%Salman Khan%'
-    AND type = 'movie'
-    AND date_added >= DATE_SUB(CURDATE(), INTERVAL 10 YEAR);
+	AND type = 'movie'
+	AND date_added >= DATE_SUB(CURDATE(), INTERVAL 10 YEAR);
 ```    
 
 #### Q15. Find the top 10 actors who have appeared in the highest number of movies produced in India.
@@ -476,11 +478,11 @@ FROM netflix_exp
 ```SQL
 SELECT 
 	SUBSTRING_INDEX(casts, ',', 1) AS Actors,
-    COUNT(*)
+	COUNT(*)
 FROM netflix_exp
 	WHERE country LIKE '%India%'
-    AND type = 'movie'
-    AND casts != ''
+	AND type = 'movie'
+	AND casts != ''
 GROUP BY 1
 ORDER BY 2 DESC
 LIMIT 10 ;
@@ -491,10 +493,10 @@ LIMIT 10 ;
 ```SQL
 SELECT 
 	CASE 
-    WHEN description LIKE '%kill%' OR '%violence%' THEN 'Bad'
-    ELSE 'Good'
-    END AS Content_Category,
-    COUNT(*) AS Count
+	WHEN description LIKE '%kill%' OR '%violence%' THEN 'Bad'
+	ELSE 'Good'
+	END AS Content_Category,
+	COUNT(*) AS Count
 FROM netflix_exp
 GROUP BY 1;
 ```
