@@ -34,10 +34,10 @@ The dataset includes information about various content on Netflix, including mov
 
 ### Objectives
 
-The project has two main objectives:
+This project has two main objectives:
 
 1. **Data Cleaning:** Address duplicate values, correct inconsistent formatting, and standardize the dataset for further analysis.
-2. **Exploratory Data Analysis (EDA):** Perform an in-depth analysis to answer 15 business-related questions based on the Netflix content data.
+2. **Exploratory Data Analysis (EDA):** Perform an in-depth analysis to answer 16 business-related questions based on the Netflix content data.
 
 <br>
 
