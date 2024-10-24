@@ -1,4 +1,4 @@
-Data Cleaning
+<u>Data Cleaning</u>
 Steps taken during Netflix Data Cleaning:
 
 
