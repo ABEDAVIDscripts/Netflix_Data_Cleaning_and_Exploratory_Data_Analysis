@@ -11,7 +11,7 @@
 - [Data Cleaning](#data-cleaning)
   - [1. Create Database, Create a Table and Import the Dataset](#1-create-database-create-a-table-and-import-the-dataset)
   - [2. Remove Duplicates](#2-remove-duplicates)
-  - [3. Standardization](#3-standardization)
+  - [3. General Standardization](#3-general-standardization)
   - [4. Date Standardization](#4-date-standardization)
   - [5. Datatype Standardization](#5-datatype-standardization)
   - [6. Verification and Dataset Preparation](#6-verification-and-dataset-preparation)
@@ -164,7 +164,7 @@ WHERE show_id IN
 
 <br>
 
-#### 3. Standardization
+#### 3. General Standardization
 
 - (A). Whitespace standardization: check for Leading or Trailing Spaces in the columns
 
