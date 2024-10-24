@@ -1,6 +1,6 @@
 ## Exploratory Data Analysis
 
-16 Business Problems and Analysis:
+16 Business Problems and It Analysis:
 
 #### Q1. How many Type of movie do we have in this dataset?
 
