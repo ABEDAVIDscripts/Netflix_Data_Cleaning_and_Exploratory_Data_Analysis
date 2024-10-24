@@ -1,14 +1,13 @@
-## Data Cleaning
+Data Cleaning
 Steps in Data Cleaning:
 
-#### 1. Create Database, Create a Table and Import the Dataset
+1. Create Database, Create a Table and Import the Dataset
 
 *Create Database*
 
-```sql
 CREATE DATABASE project;
 USE projects;
-```
+
 
 *Create a Table*
 
