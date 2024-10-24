@@ -1,5 +1,5 @@
 # Netflix Dataset Analysis: Data Cleaning & Exploratory Data Analysis (EDA)
-
+![netflix](netflix.jpg)
 
 ## Table of Contents
 
