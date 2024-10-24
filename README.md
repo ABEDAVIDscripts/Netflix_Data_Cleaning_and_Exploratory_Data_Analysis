@@ -299,7 +299,7 @@ DESCRIBE netflix_exp;
 
 ## Exploratory Data Analysis
 
-### 16 Business Questions and It analysis:
+#### 16 Business Questions and It analysis:
 
 #### Q1. How many Type of movie do we have in this dataset?
 
