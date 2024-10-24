@@ -515,7 +515,7 @@ GROUP BY 1;
 Here are some important insights obtained from analyzing the datasets:
 
 - There are **2 distinct types** of content in the dataset: **Movies** and **TV Shows**.
-- The dataset contains **6129 Movies** and **2675 TV Shows**. This shows that Netflix has a greater number of movies than TV shows in its content library.
+- The dataset contains **6,129 Movies** and **2,675 TV Shows**. This shows that Netflix has a greater number of movies than TV shows in its content library.
 - For **Movies**, the most common rating is **TV-MA**. While for **TV Shows**, the most common rating is also **TV-MA**.
 - In 2020, Netflix released **517 Movies** spanning across various genres.
 - The top 5 countries with the most content on Netflix are:
