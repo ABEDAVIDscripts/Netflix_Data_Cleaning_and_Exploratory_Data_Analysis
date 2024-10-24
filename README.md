@@ -56,7 +56,7 @@ The tools used for this project:
 <br>
 
 ## Data Cleaning
-Steps in Data Cleaning:
+Steps during Data Cleaning:
 
 #### 1. Create Database, Create a Table and Import the Dataset
 
