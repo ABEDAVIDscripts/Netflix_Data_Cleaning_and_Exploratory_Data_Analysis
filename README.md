@@ -9,7 +9,7 @@
 - [Objectives](#objectives)
 - [Tools](#tools)
 - [Data Cleaning](#data-cleaning)
-  - [1. Create Database, Create a Table and Import the Dataset](#1.-create-database,-create-a-table-and-import-the-dataset)
+  - [1. Create Database, Create a Table and Import the Dataset](#1-create-database-create-a-table-and-import-the-dataset)
   - [2. Remove Duplicates](#2-remove-duplicates)
   - [3. Standardize the data](#3-standardize-the-data)
   - [4. Handling Null Values or Blank Values](#4-handling-null-values-or-blank-values)
