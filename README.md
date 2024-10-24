@@ -11,11 +11,13 @@
 - [Data Cleaning](#data-cleaning)
   - [1. Create Database, Create a Table and Import the Dataset](#1-create-database-create-a-table-and-import-the-dataset)
   - [2. Remove Duplicates](#2-remove-duplicates)
-  - [3. Standardize the data](#3-standardize-the-data)
-  - [4. Handling Null Values or Blank Values](#4-handling-null-values-or-blank-values)
-  - [5. Remove Irrelevant Records and Columns](#5-remove-irrelevant-records-and-columns)
-  - [6. Verify the Cleaned Dataset](#6-verify-the-cleaned-dataset)
-
+  - [3. Standardization](#3-standardization)
+  - [4. Date Standardization](#4-date-standardization)
+  - [5. Datatype Standardization](#5-datatype-standardization)
+  - [6. Verification and Dataset Preparation](#6-verification-and-dataset-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Key Insights](#key-insights)
+ 
 <br>
 <br>
 
@@ -239,7 +241,7 @@ SET
 
 <br>
 
-#### 4. Standardize the Date column
+#### 4. Date Standardization
 
 ```sql
 SELECT DISTINCT date_added FROM netflix_exp;
@@ -257,7 +259,7 @@ SET
 
 <br>
 
-#### 5. Standardize the Datatype
+#### 5. Datatype Standardization
 
 ```sql
 DESCRIBE netflix_exp;
@@ -281,7 +283,7 @@ MODIFY date_added date;
 
 <br>
 
-#### 6. Verify the updates and Prepare the Dataset for Exploration
+#### 6. Verification and Dataset Preparation
 
 ```sql
 SELECT * 
