@@ -1,5 +1,5 @@
 Data Cleaning
-Steps in Data Cleaning:
+Steps taken during Netflix Data Cleaning:
 
 
 1. Create Database, Create a Table and Import the Dataset
@@ -211,7 +211,7 @@ MODIFY date_added date;
 <br>
 
 
-6. Verification and Dataset Preparation
+6. Verification and Dataset Preparation for EDA
 
 SELECT * 
 FROM netflix_exp;
