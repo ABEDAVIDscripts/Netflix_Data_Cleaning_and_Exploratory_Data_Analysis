@@ -1,5 +1,5 @@
 # Netflix Dataset Analysis: Data Cleaning & Exploratory Data Analysis (EDA)
-![netflix](netflix.jpg)
+
 
 ## Table of Contents
 
@@ -16,6 +16,7 @@
   - [5. Datatype Standardization](#5-datatype-standardization)
   - [6. Verification and Dataset Preparation](#6-verification-and-dataset-preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
+  - [16 Business Questions and It Analysis](#16-business-questions-and-it-analysis)
 - [Key Insights](#key-insights)
  
 <br>
@@ -298,7 +299,7 @@ DESCRIBE netflix_exp;
 
 ## Exploratory Data Analysis
 
-Business Problems and solution:
+### 16 Business Questions and It analysis:
 
 #### Q1. How many Type of movie do we have in this dataset?
 
