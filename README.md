@@ -536,5 +536,5 @@ Here are some important insights obtained from analyzing the datasets:
 - Netflix offers a total of **869 documentary related movies**, highlighting the platform's dedication to providing educational and informative content alongside its entertainment offerings.
 - There are **2,633 Contents** that do not have director information, which may suggest gaps in the data for some movie content.
 - Actor **Salman Khan** has appeared in **20 movies** in the last 10 years, underlining his popularity and strong presence in the Indian film industry on Netflix.
-- - The content on Netflix has been categorized as either **Good** or **Bad** based on the presence of keywords like "kill" or "violence" in the description.
-    - **304 contents** were categorized as **Bad** and **8,500 contents** were categorized as **Good**, indicating that Netflix offers a mix of both family-friendly content and more intense or violent shows.
+- The content on Netflix has been categorized as either **Good** or **Bad** based on the presence of keywords like "kill" or "violence" in the description.
+    - **304 contents** were categorized as **Bad** and **8,500 contents** were categorized as **Good**, indicating that Netflix offers a mix of both family-friendly content and more intense shows.
