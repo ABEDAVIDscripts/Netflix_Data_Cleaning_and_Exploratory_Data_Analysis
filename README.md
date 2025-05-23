@@ -1,8 +1,7 @@
-# Netflix Dataset Analysis: Data Cleaning & Exploratory Data Analysis (EDA)
+# Netflix Data Analysis: Data Cleaning & Exploratory Data Analysis
 
-![image](netflix.jpg)
 
-## Table of Contents
+### Table of Contents
 
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
@@ -24,7 +23,7 @@
 <br>
 
 ### Project Overview
-The purpose of this project is to perform Data Cleaning and Exploratory Data Analysis (EDA) on the Netflix dataset. This project aims to clean and format the data to ensure accuracy and then conduct exploratory analysis to answer business-related questions that can provide insights into Netflix's content library.
+This project focuses on cleaning and exploring the Netflix dataset to ensure data accuracy and uncover insights. It involves data preparation followed by exploratory data analysis (EDA) to answer key business questions about Netflix’s content library and distribution.
 
 <br>
 
