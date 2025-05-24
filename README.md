@@ -333,7 +333,7 @@ FROM most_common_rating
 WHERE row_numb = 1;
 ```
 
-#### Q4. List all movies released in a specific year (e.g 2020)
+#### Q4. List all movies released in a specific year (2020)
 
 ```SQL
 SELECT show_id, type, title, release_year
@@ -417,7 +417,8 @@ SELECT
 	type, title, duration_season
 FROM netflix_exp
 	WHERE duration_season > 5
-	AND type = 'TV show';
+	AND type = 'TV show'
+ORDER BY duration_season;
 ```    
 
 #### Q10. Count the number of content items in each genre
@@ -425,13 +426,13 @@ FROM netflix_exp
 ```SQL
 SELECT
 	SUBSTRING_INDEX(listed_in, ',', 1) AS Genre,
-	COUNT(*)
+	COUNT(*) AS No_of_Content
 FROM netflix_exp
 GROUP BY 1
-ORDER BY 1;
+ORDER BY No_of_Content DESC;
 ```
 
-#### Q11. Find each year and the average numbers of content release by India on Netflix. Return top 5 year with highest avg content released.
+#### Q11. Find each year and the average numbers of content release by United States on Netflix. Return top 5 year with highest avg content released.
 
  ```SQL
 WITH average_no_of_content
@@ -479,7 +480,7 @@ FROM netflix_exp
 	AND date_added >= DATE_SUB(CURDATE(), INTERVAL 10 YEAR);
 ```    
 
-#### Q15. Find the top 10 actors who have appeared in the highest number of movies produced in India.
+#### Q15. Find the top 10 actors who have appeared in the highest number of movies produced in United Kingdom.
 
 ```SQL
 SELECT 
@@ -530,6 +531,7 @@ Here are some important insights obtained from analyzing the datasets:
 
 - The **longest movie** on Netflix is Black Mirror: Bandersnatch.
 - Over the past 5 years, Netflix has added **3,881 Contents** to its library, showcasing its commitment to expanding its content and offering more diverse options to its subscribers.
+- **Pierce Brosnan** is the top actor featured in the highest number of movies produced in the United Kingdom on Netflix, with 6 appearances, reflecting his prominent role in UK cinema representation on the platform.
 - Director **Rajiv Chilaka** has prominently featured in Netflix's content library, with **22 Movies**, particularly known for his work on children's animated series.
 - There are 99 TV shows on Netflix that have more than 5 seasons, demonstrating the platform's ability to retain long-running series that are popular with viewers.
 - Netflix offers a total of **869 documentary related movies**, highlighting the platform's dedication to providing educational and informative content alongside its entertainment offerings.
