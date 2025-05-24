@@ -1,6 +1,6 @@
 ## Exploratory Data Analysis
 
-## Exploratory Data Analysis
+
 
 #### 16 Business Questions and It analysis:
 
