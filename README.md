@@ -1,4 +1,4 @@
-# Netflix Data Analysis: Data Cleaning & Exploratory Data Analysis
+# Netflix Data Cleaning & Exploratory Data Analysis
 
 
 ### Table of Contents
