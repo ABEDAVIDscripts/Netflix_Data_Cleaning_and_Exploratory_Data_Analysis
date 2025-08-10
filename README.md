@@ -1,6 +1,8 @@
 # Netflix Data Cleaning & Exploratory Data Analysis
-<img width="2560" height="1440" alt="netflix" src="https://github.com/user-attachments/assets/816960ea-59b4-41fd-8545-442397faf613" />
 
+<p align="center"> <img width="1500" height="500" alt="netflix" src="https://github.com/user-attachments/assets/816960ea-59b4-41fd-8545-442397faf613" /> </p>
+
+<br>
 
 ### Table of Contents
 
